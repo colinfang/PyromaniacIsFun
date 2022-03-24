@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <NeedDef>
+    <defName>CF_PyromaniacIsFun_NeedPyromania</defName>
+    <needClass>CF_PyromaniacIsFun.NeedPyromania</needClass>
+    <label>fire</label>
+    <description>A pyromaniac has a frequent, powerful desire to set and watch fires. They are able to tame and weaponize the flame once the impulse is satisfied.</description>
+    <minIntelligence>Humanlike</minIntelligence>
+    <colonistAndPrisonersOnly>true</colonistAndPrisonersOnly>
+    <fallPerDay>0.2</fallPerDay>
+    <listPriority>400</listPriority>
+    <freezeWhileSleeping>true</freezeWhileSleeping>
+  </NeedDef>
+
+
+  <ThoughtDef>
+    <defName>CF_PyromaniacIsFun_NeedPyromania</defName>
+    <workerClass>CF_PyromaniacIsFun.ThoughtWorker_NeedPyromania</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>extinguished</label>
+        <description>There's no warmth, no light. I feel cold and empty.</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+      <li>
+        <label>flickering</label>
+        <description>I desperately need a spark in my life, something to ignite my soul.</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+      <li>
+        <label>glowing</label>
+        <description>There's a flame in my heart. I feel calm.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+      <li>
+        <label>blazing</label>
+        <description>My soul is full of warmth. I feel happy</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+
+  <ThoughtDef>
+    <defName>CF_PyromaniacIsFun_ObservedWildFire</defName>
+    <thoughtClass>Thought_MemoryObservation</thoughtClass>
+    <durationDays>0.1</durationDays>
+    <stackLimit>20</stackLimit>
+    <stages>
+      <li>
+        <label>observed wild fire</label>
+        <description>I saw a wild fire</description>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>CF_PyromaniacIsFun_ObservedBurningPawn</defName>
+    <thoughtClass>Thought_MemoryObservation</thoughtClass>
+    <durationDays>0.1</durationDays>
+    <stackLimit>10</stackLimit>
+    <stages>
+      <li>
+        <label>observed burning pawn</label>
+        <description>I saw a burning pawn</description>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>CF_PyromaniacIsFun_SelfOnFire</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>0.1</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>I am on fire</label>
+        <description>I am on fire</description>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+<!-- melee -->
+
+  <ToolCapacityDef>
+    <defName>CF_PyromaniacIsFun_Ignite</defName>
+    <label>ignite</label>
+  </ToolCapacityDef>
+
+  <ManeuverDef>
+    <defName>CF_PyromaniacIsFun_Ignite</defName>
+    <requiredCapacity>CF_PyromaniacIsFun_Ignite</requiredCapacity>
+    <verb>
+      <verbClass>CF_PyromaniacIsFun.Verb_MeleeAttackDamageIgnite</verbClass>
+      <meleeDamageDef>Flame</meleeDamageDef>
+    </verb>
+    <logEntryDef>MeleeAttack</logEntryDef>
+    <combatLogRulesHit>CF_PyromaniacIsFun_Maneuver_Ignite_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>CF_PyromaniacIsFun_Maneuver_Ignite_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>CF_PyromaniacIsFun_Maneuver_Ignite_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>CF_PyromaniacIsFun_Maneuver_Ignite_MeleeDodge</combatLogRulesDodge>
+  </ManeuverDef>
+
+  <RulePackDef>
+    <defName>CF_PyromaniacIsFun_Maneuver_Ignite</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>damaged_inf->blast</li>
+        <li>damaged_inf->scorch</li>
+        <li>damaged_inf->burn</li>
+        <li>damaged_inf->blister</li>
+        <li>damaged_inf->ignit</li>
+        <li>damaged_inf->sear</li>
+
+        <li>damaged_past->blasted</li>
+        <li>damaged_past->scorched</li>
+        <li>damaged_past->burned</li>
+        <li>damaged_past->blistered</li>
+        <li>damaged_past->ignited</li>
+        <li>damaged_past->seared</li>
+
+        <li>damaged_present->blasting</li>
+        <li>damaged_present->scorching</li>
+        <li>damaged_present->burning</li>
+        <li>damaged_present->blistering</li>
+        <li>damaged_present->igniting</li>
+        <li>damaged_present->searing</li>
+
+        <li>destroyed_past->cremated</li>
+        <li>destroyed_past->incinerated</li>
+        <li>destroyed_past->charred</li>
+        <li>destroyed_past->obliterated</li>
+        <li>destroyed_past->annihilated</li>
+        <li>destroyed_past->detonated</li>
+
+        <li>destroyed_present->cremating</li>
+        <li>destroyed_present->incinerating</li>
+        <li>destroyed_present->charring</li>
+        <li>destroyed_present->obliterating</li>
+        <li>destroyed_present->annihilating</li>
+        <li>destroyed_present->detonating</li>
+
+        <li>flavortext_consequence(recipient_flesh!=Mechanoid)->exposing the bone underneath</li>
+        <li>flavortext_consequence(recipient_flesh==Mechanoid)->exposing the machinery underneath</li>
+        <li>flavortext_consequence(recipient_flesh!=Mechanoid)->leaving a burn scar</li>
+        <li>flavortext_consequence(recipient_flesh==Mechanoid)->leaving a burnt surface on the metal</li>
+
+        <li>destroyed_suffix->[to] ashes</li>
+        <li>destroyed_suffix->[to] a cinder</li>
+        <li>destroyed_suffix(recipient_flesh!=Mechanoid)->[to] an unrecognizable mess</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>CF_PyromaniacIsFun_Maneuver_Ignite_MeleeHit</defName>
+    <include>
+      <li>CF_PyromaniacIsFun_Maneuver_Ignite</li>
+      <li>Combat_Hit</li>
+    </include>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>CF_PyromaniacIsFun_Maneuver_Ignite_MeleeDeflect</defName>
+    <include>
+      <li>CF_PyromaniacIsFun_Maneuver_Ignite</li>
+      <li>Combat_Deflect</li>
+    </include>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>CF_PyromaniacIsFun_Maneuver_Ignite_MeleeMiss</defName>
+    <include>
+      <li>CF_PyromaniacIsFun_Maneuver_Ignite</li>
+      <li>Combat_Miss</li>
+    </include>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>CF_PyromaniacIsFun_Maneuver_Ignite_MeleeDodge</defName>
+    <include>
+      <li>CF_PyromaniacIsFun_Maneuver_Ignite</li>
+      <li>Combat_Dodge</li>
+    </include>
+  </RulePackDef>
+
+<!-- ranged -->
+
+  <!-- <DamageDef ParentName="Flame">
+    <defName>FireArrow</defName>
+    <label>fire arrow</label>
+    <isRanged>true</isRanged>
+    <makesAnimalsFlee>true</makesAnimalsFlee>
+    <impactSoundType>Bullet</impactSoundType>
+    <deathMessage>{0} has been burned to death by a fire arrow.</deathMessage>
+  </DamageDef>
+-->
+
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>CF_PyromaniacIsFun_FireArrowTemplate</defName>
+    <label>fire arrow template</label>
+    <graphicData>
+      <texPath>CF_PyromaniacIsFun/Things/Projectile/FireArrow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <projectile>
+      <damageDef>Arrow</damageDef> <!-- required, but not used -->
+      <damageAmountBase>1</damageAmountBase> <!-- required, but not used -->
+      <extraDamages>
+        <li>
+            <def>Flame</def>
+            <amount>10</amount>
+            <armorPenetration>0</armorPenetration>
+            <chance>1</chance>
+        </li>
+      </extraDamages>
+    </projectile>
+  </ThingDef>
+
+</Defs>

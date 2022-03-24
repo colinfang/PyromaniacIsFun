@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName = "PyromaniacHappy"]/workerClass</xpath>
+    <value>
+      <workerClass>CF_PyromaniacIsFun.ThoughtWorker_PyromaniacHappy</workerClass>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName = "Human"]/tools</xpath>
+    <value>
+      <li>
+        <label>fire spirit</label>
+        <capacities>
+          <li>CF_PyromaniacIsFun_Ignite</li>
+        </capacities>
+        <power>10</power>
+        <armorPenetration>0</armorPenetration>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.01</chanceFactor>
+        <!-- TODO: sound, do not use head attack tool -->
+      </li>
+    </value>
+  </Operation>
+
+
+</Patch>
+
