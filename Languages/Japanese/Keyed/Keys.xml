@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CF_PyromaniacIsFun_FireArrows.WithFire>燃え盛る{0}</CF_PyromaniacIsFun_FireArrows.WithFire>
+
+  <CF_PyromaniacIsFun_NeedPyrimania.SawWildFire>野火を見た x{0}: +{1}% ~{2}\n</CF_PyromaniacIsFun_NeedPyrimania.SawWildFire>
+  <CF_PyromaniacIsFun_NeedPyrimania.SawBurningPawn>炎上する者を見た x{0}: +{1}% ~{2}\n</CF_PyromaniacIsFun_NeedPyrimania.SawBurningPawn>
+  <CF_PyromaniacIsFun_NeedPyrimania.IAmOnFire>火に包まれている: +{1}% ~{2}\n</CF_PyromaniacIsFun_NeedPyrimania.IAmOnFire>
+  <CF_PyromaniacIsFun_NeedPyrimania.BaseChangeRate>基本変動割合: -{0}%</CF_PyromaniacIsFun_NeedPyrimania.BaseChangeRate>
+  <CF_PyromaniacIsFun_NeedPyrimania.FinalChangeRate>\n最終変動割合: {0}% / 日 ({1}% / 時)</CF_PyromaniacIsFun_NeedPyrimania.FinalChangeRate>
+  <CF_PyromaniacIsFun_NeedPyrimania.WatchingFlame>火を観察中: +{0}% / 日 (+{1}% / 時)</CF_PyromaniacIsFun_NeedPyrimania.WatchingFlame>
+
+  <CF_PyromaniacIsFun_SettingText_CostPerArrow.label>火矢を放つごとに消費する火炎欲求の値</CF_PyromaniacIsFun_SettingText_CostPerArrow.label>
+  <CF_PyromaniacIsFun_SettingText_CostPerMelee.label>近接攻撃での着火ごとに消費する火炎欲求の値</CF_PyromaniacIsFun_SettingText_CostPerMelee.label>
+
+  <CF_PyromaniacIsFun_SettingText_MeleeIgnite.label>近接攻撃での着火確率</CF_PyromaniacIsFun_SettingText_MeleeIgnite.label>
+  <CF_PyromaniacIsFun_SettingText_MeleeIgnite.description>近接攻撃時に放火魔が攻撃対象に火を付ける頻度</CF_PyromaniacIsFun_SettingText_MeleeIgnite.description>
+  <CF_PyromaniacIsFun_SettingText_WildFire.label>野火一つにつき増加する火炎欲求ゲージの一日当たりの増加量</CF_PyromaniacIsFun_SettingText_WildFire.label>
+  <CF_PyromaniacIsFun_SettingText_BurningPawn.label>火のついたポーン一体につき増加する火炎欲求ゲージの一日当たりの増加量</CF_PyromaniacIsFun_SettingText_BurningPawn.label>
+  <CF_PyromaniacIsFun_SettingText_SelfOnFire.label>自身が燃えた時の火炎欲求ゲージの一日当たりの増加量</CF_PyromaniacIsFun_SettingText_SelfOnFire.label>
+  <CF_PyromaniacIsFun_SettingText_Meditation.label>瞑想(炎)で得られる火炎欲求ゲージへの掛け率</CF_PyromaniacIsFun_SettingText_Meditation.label>
+  <CF_PyromaniacIsFun_SettingText_Meditation.description>増加速度は、この掛け率 × オブジェクトによる瞑想時のフォーカス強度</CF_PyromaniacIsFun_SettingText_Meditation.description>
+  <CF_PyromaniacIsFun_SettingText_MoodIncendiaryWeapon.label>放火魔はちゃんとした焼夷兵器を携帯しているときだけ心情を上げるようにする</CF_PyromaniacIsFun_SettingText_MoodIncendiaryWeapon.label>
+  <CF_PyromaniacIsFun_SettingText_MoodIncendiaryWeapon.description>火炎筒投射機などの燃焼ダメージを与える遠距離武器にのみ心情ボーナスが生じるようになります。例えば、煙幕筒投射機ではボーナスが発生しなくなります。</CF_PyromaniacIsFun_SettingText_MoodIncendiaryWeapon.description>
+  <CF_PyromaniacIsFun_SettingText_AimIncendiaryWeapon.label>放火魔の使う焼夷兵器の狙いを向上させる</CF_PyromaniacIsFun_SettingText_AimIncendiaryWeapon.label>
+  <CF_PyromaniacIsFun_SettingText_AimIncendiaryWeapon.description>火炎筒投射機などの燃焼ダメージを与える遠距離武器について、強制的に弾が外れてしまう半径を無効化（スモーク発射機などは対象外）</CF_PyromaniacIsFun_SettingText_AimIncendiaryWeapon.description>
+
+  <CF_PyromaniacIsFun_PyromaniacUtility_ReducedForcedMissedRadius>強制ミス半径を無効化した {0} {1}</CF_PyromaniacIsFun_PyromaniacUtility_ReducedForcedMissedRadius>
+  <CF_PyromaniacIsFun_PyromaniacUtility_IAmOnFire>火に包まれている</CF_PyromaniacIsFun_PyromaniacUtility_IAmOnFire>
+  <CF_PyromaniacIsFun_PyromaniacUtility_ObservedFireOnPawn>{1}の中の{0}を観察した</CF_PyromaniacIsFun_PyromaniacUtility_ObservedFireOnPawn>
+  <CF_PyromaniacIsFun_PyromaniacUtility_ObservedFire>{0}を観察した</CF_PyromaniacIsFun_PyromaniacUtility_ObservedFire>
+  <CF_PyromaniacIsFun_PyromaniacUtility_PreventedFireStartingSpree>放火衝動を未然に防いだ</CF_PyromaniacIsFun_PyromaniacUtility_PreventedFireStartingSpree>
+
+
+</LanguageData>

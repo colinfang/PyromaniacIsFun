@@ -91,7 +91,7 @@ namespace CF_PyromaniacIsFun
             if (pawn.HasAttachment(ThingDefOf.Fire))
             {
                 var thought = (Thought_Memory)ThoughtMaker.MakeThought(PyromaniacUtility.SelfOnFireDef);
-                PyromaniacUtility.ThrowText(pawn, () => $"I am on fire", 4);
+                PyromaniacUtility.ThrowText(pawn, () => $"CF_PyromaniacIsFun_PyromaniacUtility_IAmOnFire".Translate(), 4);
                 pawn.needs.mood.thoughts.memories.TryGainMemory(thought);
             }
 
@@ -131,27 +131,27 @@ namespace CF_PyromaniacIsFun
             {
                 var gainFromWildFire = numWildFire * Patcher.Settings.NeedPyromaniaGainPerWildFirePerDay;
                 gain += gainFromWildFire;
-                sb.AppendFormat("Saw wild fire x{0}: +{1:F0}% ~{2}\n",
-                    numWildFire, gainFromWildFire * 100,
-                    (PyromaniacUtility.ObservedWildFireDef.DurationTicks - minAgeWildFire).ToStringTicksToPeriod()
+                sb.AppendFormat("CF_PyromaniacIsFun_NeedPyrimania.SawWildFire".Translate(numWildFire, (gainFromWildFire * 100).ToString("F0"),
+                    (PyromaniacUtility.ObservedWildFireDef.DurationTicks - minAgeWildFire).ToStringTicksToPeriod())
+                    
                 );
             }
             if (numBurningPawn > 0)
             {
                 var gainFromBurningPawn = numBurningPawn * Patcher.Settings.NeedPyromaniaGainPerBurningPawnPerDay;
                 gain += gainFromBurningPawn;
-                sb.AppendFormat("Saw burning pawn x{0}: +{1:F0}% ~{2}\n",
-                    numBurningPawn, gainFromBurningPawn * 100,
-                    (PyromaniacUtility.ObservedBurningPawnDef.DurationTicks - minAgeBurningPawn).ToStringTicksToPeriod()
+                sb.AppendFormat("CF_PyromaniacIsFun_NeedPyrimania.SawBurningPawn".Translate(numBurningPawn, (gainFromBurningPawn * 100).ToString("F0"),
+                    (PyromaniacUtility.ObservedBurningPawnDef.DurationTicks - minAgeBurningPawn).ToStringTicksToPeriod())
+                    
                 );
             }
             if (numSelfOnFire > 0)
             {
                 var gainFromSelfOnFire = numSelfOnFire * Patcher.Settings.NeedPyromaniaGainSelfOnFirePerDay;
                 gain += gainFromSelfOnFire;
-                sb.AppendFormat("I am on fire: +{1:F0}% ~{2}\n",
-                    numSelfOnFire, gainFromSelfOnFire * 100,
-                    (PyromaniacUtility.SelfOnFireDef.DurationTicks - minAgeSelfOnFire).ToStringTicksToPeriod()
+                sb.AppendFormat("CF_PyromaniacIsFun_NeedPyrimania.IAmOnFire".Translate(numSelfOnFire, (gainFromSelfOnFire * 100).ToString("F0"),
+                    (PyromaniacUtility.SelfOnFireDef.DurationTicks - minAgeSelfOnFire).ToStringTicksToPeriod())
+                    
                 );
             }
             ExplanationFromObservedFire = sb.ToString();
@@ -170,7 +170,7 @@ namespace CF_PyromaniacIsFun
             }
 
             var sb = new StringBuilder();
-            sb.AppendLine($"Base change rate: -{def.fallPerDay * 100:F0}%");
+            sb.AppendLine($"CF_PyromaniacIsFun_NeedPyrimania.BaseChangeRate".Translate((def.fallPerDay * 100).ToString("F0")));
             var gain = -def.fallPerDay;
             var gainFromObservedFireInterval = GainFromObservedFireInterval();
             if (gainFromObservedFireInterval > 0)
@@ -179,7 +179,7 @@ namespace CF_PyromaniacIsFun
                 sb.Append(ExplanationFromObservedFire);
             }
 
-            sb.AppendLine($"\nFinal change rate: {gain * 100:+0;-0}% / day ({gain * 100 / GenDate.HoursPerDay:F0}% / hour)");
+            sb.AppendLine($"CF_PyromaniacIsFun_NeedPyrimania.FinalChangeRate".Translate((gain * 100).ToString("F0"), (gain * 100 / GenDate.HoursPerDay).ToString("F0")));
             lastDelta = gain * NeedTunings.NeedUpdateInterval / GenDate.TicksPerDay;
             CurLevel = Mathf.Clamp01(CurLevel + lastDelta);
             ExplanationAll = sb.ToString();
@@ -227,7 +227,7 @@ namespace CF_PyromaniacIsFun
             )
             {
                 var valuePerDay = thing.GetStatValueForPawn(StatDefOf.MeditationFocusStrength, pawn) * Patcher.Settings.NeedPyromaniaGainFromMeditationMultiplier;
-                need.AdjustExternally(valuePerDay / GenDate.TicksPerDay, $"Watching flame: +{valuePerDay * 100:F0}% / day (+{valuePerDay * 100 / GenDate.HoursPerDay:F0}% / hour)");
+                need.AdjustExternally(valuePerDay / GenDate.TicksPerDay, $"CF_PyromaniacIsFun_NeedPyrimania.WatchingFlame".Translate((valuePerDay * 100).ToString("F0"), (valuePerDay * 100 / GenDate.HoursPerDay).ToString("F0")));
             }
         }
     }

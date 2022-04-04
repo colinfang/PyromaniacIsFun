@@ -10,7 +10,7 @@
     <deathMessage>{0}は火矢で命を奪われた。</deathMessage>
   </DamageDef> -->
 
-  <CF_PyromaniacIsFun_FireArrowTemplate.label>火矢のテンプレート</CF_PyromaniacIsFun_FireArrowTemplate.label>
+  <CF_PyromaniacIsFun_FireArrowTemplate.label>火矢の凡例</CF_PyromaniacIsFun_FireArrowTemplate.label>
 
 
 </LanguageData>

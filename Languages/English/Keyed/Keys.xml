@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CF_PyromaniacIsFun_FireArrows.WithFire>{0} with fire</CF_PyromaniacIsFun_FireArrows.WithFire>
+
+  <CF_PyromaniacIsFun_NeedPyrimania.SawWildFire>Saw wild fire x{0}: +{1}% ~{2}\n</CF_PyromaniacIsFun_NeedPyrimania.SawWildFire>
+  <CF_PyromaniacIsFun_NeedPyrimania.SawBurningPawn>Saw burning pawn x{0}: +{1}% ~{2}\n</CF_PyromaniacIsFun_NeedPyrimania.SawBurningPawn>
+  <CF_PyromaniacIsFun_NeedPyrimania.IAmOnFire>I am on fire: +{1}% ~{2}\n</CF_PyromaniacIsFun_NeedPyrimania.IAmOnFire>
+  <CF_PyromaniacIsFun_NeedPyrimania.BaseChangeRate>Base change rate: -{0}%</CF_PyromaniacIsFun_NeedPyrimania.BaseChangeRate>
+  <CF_PyromaniacIsFun_NeedPyrimania.FinalChangeRate>\nFinal change rate: {0}% / day ({1}% / hour)</CF_PyromaniacIsFun_NeedPyrimania.FinalChangeRate>
+  <CF_PyromaniacIsFun_NeedPyrimania.WatchingFlame>Watching flame: +{0}% / day (+{1}% / hour)</CF_PyromaniacIsFun_NeedPyrimania.WatchingFlame>
+
+  <CF_PyromaniacIsFun_SettingText_CostPerArrow.label>Pyromania need cost per fire arrow</CF_PyromaniacIsFun_SettingText_CostPerArrow.label>
+  <CF_PyromaniacIsFun_SettingText_CostPerMelee.label>Pyromania need cost per melee ignite</CF_PyromaniacIsFun_SettingText_CostPerMelee.label>
+
+  <CF_PyromaniacIsFun_SettingText_MeleeIgnite.label>Pyromaniac melee ignite chance</CF_PyromaniacIsFun_SettingText_MeleeIgnite.label>
+  <CF_PyromaniacIsFun_SettingText_MeleeIgnite.description>How often would a pyromaniac set his target on fire in melee attack</CF_PyromaniacIsFun_SettingText_MeleeIgnite.description>
+  <CF_PyromaniacIsFun_SettingText_WildFire.label>Pyromania need gain per wild fire per day</CF_PyromaniacIsFun_SettingText_WildFire.label>
+  <CF_PyromaniacIsFun_SettingText_BurningPawn.label>Pyromania need gain per burning pawn per day</CF_PyromaniacIsFun_SettingText_BurningPawn.label>
+  <CF_PyromaniacIsFun_SettingText_SelfOnFire.label>Pyromania need gain self on fire per day</CF_PyromaniacIsFun_SettingText_SelfOnFire.label>
+  <CF_PyromaniacIsFun_SettingText_Meditation.label>Pyromania need gain from meditation (flame) multiplier</CF_PyromaniacIsFun_SettingText_Meditation.label>
+  <CF_PyromaniacIsFun_SettingText_Meditation.description>Gaining speed is this multiplier x meditation focus strength from the object</CF_PyromaniacIsFun_SettingText_Meditation.description>
+  <CF_PyromaniacIsFun_SettingText_MoodIncendiaryWeapon.label>Pyromaniacs feel happy only when carrying truly incendiary weapon</CF_PyromaniacIsFun_SettingText_MoodIncendiaryWeapon.label>
+  <CF_PyromaniacIsFun_SettingText_MoodIncendiaryWeapon.description>Mood bonus for ranged weapons that deal flame damage, e.g. incendiary launcher, but not e.g. smoke launcher</CF_PyromaniacIsFun_SettingText_MoodIncendiaryWeapon.description>
+  <CF_PyromaniacIsFun_SettingText_AimIncendiaryWeapon.label>Pyromaniacs aim incendiary weapon well</CF_PyromaniacIsFun_SettingText_AimIncendiaryWeapon.label>
+  <CF_PyromaniacIsFun_SettingText_AimIncendiaryWeapon.description>Remove forced miss radius for ranged weapons that deal flame damage, e.g. incendiary launcher, but not e.g. smoke launcher</CF_PyromaniacIsFun_SettingText_AimIncendiaryWeapon.description>
+
+  <CF_PyromaniacIsFun_PyromaniacUtility_ReducedForcedMissedRadius>Reduced forced missed radius {0} {1}</CF_PyromaniacIsFun_PyromaniacUtility_ReducedForcedMissedRadius>
+  <CF_PyromaniacIsFun_PyromaniacUtility_IAmOnFire>I am on fire</CF_PyromaniacIsFun_PyromaniacUtility_IAmOnFire>
+  <CF_PyromaniacIsFun_PyromaniacUtility_ObservedFireOnPawn>Observed {0} on {1}</CF_PyromaniacIsFun_PyromaniacUtility_ObservedFireOnPawn>
+  <CF_PyromaniacIsFun_PyromaniacUtility_ObservedFire>Observed {0}</CF_PyromaniacIsFun_PyromaniacUtility_ObservedFire>
+  <CF_PyromaniacIsFun_PyromaniacUtility_PreventedFireStartingSpree>Prevented FireStartingSpree</CF_PyromaniacIsFun_PyromaniacUtility_PreventedFireStartingSpree>
+
+
+</LanguageData>
