@@ -3,11 +3,11 @@
 
   <CF_PyromaniacIsFun_FireArrows.WithFire>燃え盛る{0}</CF_PyromaniacIsFun_FireArrows.WithFire>
 
-  <CF_PyromaniacIsFun_NeedPyrimania.SawWildFire>野火を見た x{0}: +{1}% ~{2}\n</CF_PyromaniacIsFun_NeedPyrimania.SawWildFire>
-  <CF_PyromaniacIsFun_NeedPyrimania.SawBurningPawn>炎上する者を見た x{0}: +{1}% ~{2}\n</CF_PyromaniacIsFun_NeedPyrimania.SawBurningPawn>
-  <CF_PyromaniacIsFun_NeedPyrimania.IAmOnFire>火に包まれている: +{1}% ~{2}\n</CF_PyromaniacIsFun_NeedPyrimania.IAmOnFire>
+  <CF_PyromaniacIsFun_NeedPyrimania.SawWildFire>野火を見た x{0}: +{1}% ~{2}</CF_PyromaniacIsFun_NeedPyrimania.SawWildFire>
+  <CF_PyromaniacIsFun_NeedPyrimania.SawBurningPawn>炎上する者を見た x{0}: +{1}% ~{2}</CF_PyromaniacIsFun_NeedPyrimania.SawBurningPawn>
+  <CF_PyromaniacIsFun_NeedPyrimania.IAmOnFire>火に包まれている: +{1}% ~{2}</CF_PyromaniacIsFun_NeedPyrimania.IAmOnFire>
   <CF_PyromaniacIsFun_NeedPyrimania.BaseChangeRate>基本変動割合: -{0}%</CF_PyromaniacIsFun_NeedPyrimania.BaseChangeRate>
-  <CF_PyromaniacIsFun_NeedPyrimania.FinalChangeRate>\n最終変動割合: {0}% / 日 ({1}% / 時)</CF_PyromaniacIsFun_NeedPyrimania.FinalChangeRate>
+  <CF_PyromaniacIsFun_NeedPyrimania.FinalChangeRate>最終変動割合: {0}% / 日 ({1}% / 時)</CF_PyromaniacIsFun_NeedPyrimania.FinalChangeRate>
   <CF_PyromaniacIsFun_NeedPyrimania.WatchingFlame>火を観察中: +{0}% / 日 (+{1}% / 時)</CF_PyromaniacIsFun_NeedPyrimania.WatchingFlame>
 
   <CF_PyromaniacIsFun_SettingText_CostPerArrow.label>火矢を放つごとに消費する火炎欲求の値</CF_PyromaniacIsFun_SettingText_CostPerArrow.label>
@@ -19,7 +19,7 @@
   <CF_PyromaniacIsFun_SettingText_BurningPawn.label>火のついたポーン一体につき増加する火炎欲求ゲージの一日当たりの増加量</CF_PyromaniacIsFun_SettingText_BurningPawn.label>
   <CF_PyromaniacIsFun_SettingText_SelfOnFire.label>自身が燃えた時の火炎欲求ゲージの一日当たりの増加量</CF_PyromaniacIsFun_SettingText_SelfOnFire.label>
   <CF_PyromaniacIsFun_SettingText_Meditation.label>瞑想(炎)で得られる火炎欲求ゲージへの掛け率</CF_PyromaniacIsFun_SettingText_Meditation.label>
-  <CF_PyromaniacIsFun_SettingText_Meditation.description>増加速度は、この掛け率 × オブジェクトによる瞑想時のフォーカス強度</CF_PyromaniacIsFun_SettingText_Meditation.description>
+  <CF_PyromaniacIsFun_SettingText_Meditation.description>増加速度は、この掛け率?×?オブジェクトによる瞑想時のフォーカス強度</CF_PyromaniacIsFun_SettingText_Meditation.description>
   <CF_PyromaniacIsFun_SettingText_MoodIncendiaryWeapon.label>放火魔はちゃんとした焼夷兵器を携帯しているときだけ心情を上げるようにする</CF_PyromaniacIsFun_SettingText_MoodIncendiaryWeapon.label>
   <CF_PyromaniacIsFun_SettingText_MoodIncendiaryWeapon.description>火炎筒投射機などの燃焼ダメージを与える遠距離武器にのみ心情ボーナスが生じるようになります。例えば、煙幕筒投射機ではボーナスが発生しなくなります。</CF_PyromaniacIsFun_SettingText_MoodIncendiaryWeapon.description>
   <CF_PyromaniacIsFun_SettingText_AimIncendiaryWeapon.label>放火魔の使う焼夷兵器の狙いを向上させる</CF_PyromaniacIsFun_SettingText_AimIncendiaryWeapon.label>

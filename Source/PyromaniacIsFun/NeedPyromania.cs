@@ -131,7 +131,7 @@ namespace CF_PyromaniacIsFun
             {
                 var gainFromWildFire = numWildFire * Patcher.Settings.NeedPyromaniaGainPerWildFirePerDay;
                 gain += gainFromWildFire;
-                sb.AppendFormat("CF_PyromaniacIsFun_NeedPyrimania.SawWildFire".Translate(numWildFire, (gainFromWildFire * 100).ToString("F0"),
+                sb.AppendLine("CF_PyromaniacIsFun_NeedPyrimania.SawWildFire".Translate(numWildFire, (gainFromWildFire * 100).ToString("F0"),
                     (PyromaniacUtility.ObservedWildFireDef.DurationTicks - minAgeWildFire).ToStringTicksToPeriod())
                     
                 );
@@ -140,7 +140,7 @@ namespace CF_PyromaniacIsFun
             {
                 var gainFromBurningPawn = numBurningPawn * Patcher.Settings.NeedPyromaniaGainPerBurningPawnPerDay;
                 gain += gainFromBurningPawn;
-                sb.AppendFormat("CF_PyromaniacIsFun_NeedPyrimania.SawBurningPawn".Translate(numBurningPawn, (gainFromBurningPawn * 100).ToString("F0"),
+                sb.AppendLine("CF_PyromaniacIsFun_NeedPyrimania.SawBurningPawn".Translate(numBurningPawn, (gainFromBurningPawn * 100).ToString("F0"),
                     (PyromaniacUtility.ObservedBurningPawnDef.DurationTicks - minAgeBurningPawn).ToStringTicksToPeriod())
                     
                 );
@@ -149,7 +149,7 @@ namespace CF_PyromaniacIsFun
             {
                 var gainFromSelfOnFire = numSelfOnFire * Patcher.Settings.NeedPyromaniaGainSelfOnFirePerDay;
                 gain += gainFromSelfOnFire;
-                sb.AppendFormat("CF_PyromaniacIsFun_NeedPyrimania.IAmOnFire".Translate(numSelfOnFire, (gainFromSelfOnFire * 100).ToString("F0"),
+                sb.AppendLine("CF_PyromaniacIsFun_NeedPyrimania.IAmOnFire".Translate(numSelfOnFire, (gainFromSelfOnFire * 100).ToString("F0"),
                     (PyromaniacUtility.SelfOnFireDef.DurationTicks - minAgeSelfOnFire).ToStringTicksToPeriod())
                     
                 );
@@ -179,7 +179,7 @@ namespace CF_PyromaniacIsFun
                 sb.Append(ExplanationFromObservedFire);
             }
 
-            sb.AppendLine($"CF_PyromaniacIsFun_NeedPyrimania.FinalChangeRate".Translate((gain * 100).ToString("F0"), (gain * 100 / GenDate.HoursPerDay).ToString("F0")));
+            sb.AppendLine().AppendLine("CF_PyromaniacIsFun_NeedPyrimania.FinalChangeRate".Translate((gain * 100).ToString("F0"), (gain * 100 / GenDate.HoursPerDay).ToString("F0")));
             lastDelta = gain * NeedTunings.NeedUpdateInterval / GenDate.TicksPerDay;
             CurLevel = Mathf.Clamp01(CurLevel + lastDelta);
             ExplanationAll = sb.ToString();

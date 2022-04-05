@@ -3,11 +3,11 @@
 
   <CF_PyromaniacIsFun_FireArrows.WithFire>{0} with fire</CF_PyromaniacIsFun_FireArrows.WithFire>
 
-  <CF_PyromaniacIsFun_NeedPyrimania.SawWildFire>Saw wild fire x{0}: +{1}% ~{2}\n</CF_PyromaniacIsFun_NeedPyrimania.SawWildFire>
-  <CF_PyromaniacIsFun_NeedPyrimania.SawBurningPawn>Saw burning pawn x{0}: +{1}% ~{2}\n</CF_PyromaniacIsFun_NeedPyrimania.SawBurningPawn>
-  <CF_PyromaniacIsFun_NeedPyrimania.IAmOnFire>I am on fire: +{1}% ~{2}\n</CF_PyromaniacIsFun_NeedPyrimania.IAmOnFire>
+  <CF_PyromaniacIsFun_NeedPyrimania.SawWildFire>Saw wild fire x{0}: +{1}% ~{2}</CF_PyromaniacIsFun_NeedPyrimania.SawWildFire>
+  <CF_PyromaniacIsFun_NeedPyrimania.SawBurningPawn>Saw burning pawn x{0}: +{1}% ~{2}</CF_PyromaniacIsFun_NeedPyrimania.SawBurningPawn>
+  <CF_PyromaniacIsFun_NeedPyrimania.IAmOnFire>I am on fire: +{1}% ~{2}</CF_PyromaniacIsFun_NeedPyrimania.IAmOnFire>
   <CF_PyromaniacIsFun_NeedPyrimania.BaseChangeRate>Base change rate: -{0}%</CF_PyromaniacIsFun_NeedPyrimania.BaseChangeRate>
-  <CF_PyromaniacIsFun_NeedPyrimania.FinalChangeRate>\nFinal change rate: {0}% / day ({1}% / hour)</CF_PyromaniacIsFun_NeedPyrimania.FinalChangeRate>
+  <CF_PyromaniacIsFun_NeedPyrimania.FinalChangeRate>Final change rate: {0}% / day ({1}% / hour)</CF_PyromaniacIsFun_NeedPyrimania.FinalChangeRate>
   <CF_PyromaniacIsFun_NeedPyrimania.WatchingFlame>Watching flame: +{0}% / day (+{1}% / hour)</CF_PyromaniacIsFun_NeedPyrimania.WatchingFlame>
 
   <CF_PyromaniacIsFun_SettingText_CostPerArrow.label>Pyromania need cost per fire arrow</CF_PyromaniacIsFun_SettingText_CostPerArrow.label>
