@@ -91,7 +91,7 @@ namespace CF_PyromaniacIsFun
             if (pawn.HasAttachment(ThingDefOf.Fire))
             {
                 var thought = (Thought_Memory)ThoughtMaker.MakeThought(PyromaniacUtility.SelfOnFireDef);
-                PyromaniacUtility.ThrowText(pawn, () => $"CF_PyromaniacIsFun_PyromaniacUtility_IAmOnFire".Translate(), 4);
+                PyromaniacUtility.ThrowText(pawn, () => "CF_PyromaniacIsFun_PyromaniacUtility_IAmOnFire".Translate(), 4);
                 pawn.needs.mood.thoughts.memories.TryGainMemory(thought);
             }
 
@@ -170,7 +170,7 @@ namespace CF_PyromaniacIsFun
             }
 
             var sb = new StringBuilder();
-            sb.AppendLine($"CF_PyromaniacIsFun_NeedPyrimania.BaseChangeRate".Translate((def.fallPerDay * 100).ToString("F0")));
+            sb.AppendLine("CF_PyromaniacIsFun_NeedPyrimania.BaseChangeRate".Translate((def.fallPerDay * 100).ToString("F0")));
             var gain = -def.fallPerDay;
             var gainFromObservedFireInterval = GainFromObservedFireInterval();
             if (gainFromObservedFireInterval > 0)
@@ -227,7 +227,7 @@ namespace CF_PyromaniacIsFun
             )
             {
                 var valuePerDay = thing.GetStatValueForPawn(StatDefOf.MeditationFocusStrength, pawn) * Patcher.Settings.NeedPyromaniaGainFromMeditationMultiplier;
-                need.AdjustExternally(valuePerDay / GenDate.TicksPerDay, $"CF_PyromaniacIsFun_NeedPyrimania.WatchingFlame".Translate((valuePerDay * 100).ToString("F0"), (valuePerDay * 100 / GenDate.HoursPerDay).ToString("F0")));
+                need.AdjustExternally(valuePerDay / GenDate.TicksPerDay, "CF_PyromaniacIsFun_NeedPyrimania.WatchingFlame".Translate((valuePerDay * 100).ToString("F0"), (valuePerDay * 100 / GenDate.HoursPerDay).ToString("F0")));
             }
         }
     }

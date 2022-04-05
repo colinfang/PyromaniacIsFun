@@ -30,13 +30,13 @@ namespace CF_PyromaniacIsFun
                 {
                     thought = (Thought_MemoryObservation)ThoughtMaker.MakeThought(PyromaniacUtility.ObservedBurningPawnDef);
                     thought.Target = pawnOnFire;
-                    PyromaniacUtility.ThrowText(pawn, () => $"CF_PyromaniacIsFun_PyromaniacUtility_ObservedFireOnPawn".Translate(fire, pawnOnFire), 4);
+                    PyromaniacUtility.ThrowText(pawn, () => "CF_PyromaniacIsFun_PyromaniacUtility_ObservedFireOnPawn".Translate(fire, pawnOnFire), 4);
                 }
                 else
                 {
                     thought = (Thought_MemoryObservation)ThoughtMaker.MakeThought(PyromaniacUtility.ObservedWildFireDef);
                     thought.Target = fire;
-                    PyromaniacUtility.ThrowText(pawn, () => $"CF_PyromaniacIsFun_PyromaniacUtility_ObservedFire".Translate(fire), 4);
+                    PyromaniacUtility.ThrowText(pawn, () => "CF_PyromaniacIsFun_PyromaniacUtility_ObservedFire".Translate(fire), 4);
                 }
                 pawn.needs.mood.thoughts.memories.TryGainMemory(thought);
             }
