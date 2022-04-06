@@ -22,7 +22,7 @@ namespace CF_PyromaniacIsFun
         {
             var fireArrow = Gen.MemberwiseClone(arrow);
             fireArrow.defName = "Fire_" + arrow.defName;
-            fireArrow.label = arrow.label + " with fire";
+            fireArrow.label = "CF_PyromaniacIsFun_FireArrows.WithFire".Translate(arrow.label);
             fireArrow.graphicData = fireArrowGeneric.graphicData;
             // Make a copy in order to modify
             // TODO: Any better to clone?

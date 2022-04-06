@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- <DamageDef ParentName="Flame">
+    <defName>FireArrow</defName>
+    <label>火矢</label>
+    <isRanged>true</isRanged>
+    <makesAnimalsFlee>true</makesAnimalsFlee>
+    <impactSoundType>Bullet</impactSoundType>
+    <deathMessage>{0}は火矢で命を奪われた。</deathMessage>
+  </DamageDef> -->
+
+  <CF_PyromaniacIsFun_FireArrowTemplate.label>火矢の凡例</CF_PyromaniacIsFun_FireArrowTemplate.label>
+
+
+</LanguageData>

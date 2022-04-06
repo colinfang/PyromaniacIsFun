@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CF_PyromaniacIsFun_NeedPyromania.stages.0.label>消えた炎</CF_PyromaniacIsFun_NeedPyromania.stages.0.label>
+  <CF_PyromaniacIsFun_NeedPyromania.stages.0.description>暖かさも無ければ光も無い。身も心も冷えて空虚だ。</CF_PyromaniacIsFun_NeedPyromania.stages.0.description>
+  <CF_PyromaniacIsFun_NeedPyromania.stages.1.label>揺らめく炎</CF_PyromaniacIsFun_NeedPyromania.stages.1.label>
+  <CF_PyromaniacIsFun_NeedPyromania.stages.1.description>私の人生には火花が必要だ。魂の火種となるものがどうしても欲しい。</CF_PyromaniacIsFun_NeedPyromania.stages.1.description>
+  <CF_PyromaniacIsFun_NeedPyromania.stages.2.label>煌めく炎</CF_PyromaniacIsFun_NeedPyromania.stages.2.label>
+  <CF_PyromaniacIsFun_NeedPyromania.stages.2.description>心に炎が宿っている。落ち着くなあ。</CF_PyromaniacIsFun_NeedPyromania.stages.2.description>
+  <CF_PyromaniacIsFun_NeedPyromania.stages.3.label>燃え盛る炎</CF_PyromaniacIsFun_NeedPyromania.stages.3.label>
+  <CF_PyromaniacIsFun_NeedPyromania.stages.3.description>魂が興奮の熱で満ちている。幸せだ。</CF_PyromaniacIsFun_NeedPyromania.stages.3.description>
+
+  <CF_PyromaniacIsFun_ObservedWildFire.stages.0.label>野火を見た</CF_PyromaniacIsFun_ObservedWildFire.stages.0.label>
+  <CF_PyromaniacIsFun_ObservedWildFire.stages.0.description>私は野を焼く火を見た。</CF_PyromaniacIsFun_ObservedWildFire.stages.0.description>
+
+  <CF_PyromaniacIsFun_ObservedBurningPawn.stages.0.label>炎上する者を見た</CF_PyromaniacIsFun_ObservedBurningPawn.stages.0.label>
+  <CF_PyromaniacIsFun_ObservedBurningPawn.stages.0.description>私は誰かが燃え盛るさまを見た。</CF_PyromaniacIsFun_ObservedBurningPawn.stages.0.description>
+
+  <CF_PyromaniacIsFun_SelfOnFire.stages.0.label>火に包まれている</CF_PyromaniacIsFun_SelfOnFire.stages.0.label>
+  <CF_PyromaniacIsFun_SelfOnFire.stages.0.description>私の身が火に包まれている。</CF_PyromaniacIsFun_SelfOnFire.stages.0.description>
+
+
+</LanguageData>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- melee -->
+  <!-- 大抵は"～をする"という形で文が繋がります -->
+
+  <CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.0>damaged_inf->爆破する</CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.0>
+  <CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.1>damaged_inf->灼く</CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.1>
+  <CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.2>damaged_inf->燃やす</CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.2>
+  <CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.3>damaged_inf->火膨れにする</CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.3>
+  <CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.4>damaged_inf->発火させる</CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.4>
+  <CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.5>damaged_inf->焦がす</CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.5>
+  <CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.6>damaged_past->爆破した</CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.6>
+  <CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.7>damaged_past->灼いた</CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.7>
+  <CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.8>damaged_past->燃やした</CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.8>
+  <CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.9>damaged_past->火膨れにした</CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.9>
+  <CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.10>damaged_past->発火させた</CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.10>
+  <CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.11>damaged_past->焦がした</CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.11>
+  <CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.12>damaged_present->爆破している</CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.12>
+  <CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.13>damaged_present->灼いている</CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.13>
+  <CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.14>damaged_present->燃やしている</CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.14>
+  <CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.15>damaged_present->火膨れにしている</CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.15>
+  <CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.16>damaged_present->発火させている</CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.16>
+  <CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.17>damaged_present->焦がしている</CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.17>
+  <CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.18>destroyed_past->焼却した</CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.18>
+  <CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.19>destroyed_past->灰にした</CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.19>
+  <CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.20>destroyed_past->黒焦げにした</CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.20>
+  <CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.21>destroyed_past->消滅させた</CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.21>
+  <CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.22>destroyed_past->全壊させた</CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.22>
+  <CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.23>destroyed_past->爆砕した</CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.23>
+  <CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.24>destroyed_present->焼却している</CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.24>
+  <CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.25>destroyed_present->灰にしている</CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.25>
+  <CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.26>destroyed_present->黒焦げにしている</CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.26>
+  <CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.27>destroyed_present->消滅させている</CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.27>
+  <CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.28>destroyed_present->全壊させている</CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.28>
+  <CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.29>destroyed_present->爆砕している</CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.29>
+  <CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.30>flavortext_consequence(recipient_flesh!=Mechanoid)->内部の骨格が露出している</CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.30>
+  <CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.31>flavortext_consequence(recipient_flesh==Mechanoid)->内部の機器が露出している</CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.31>
+  <CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.32>flavortext_consequence(recipient_flesh!=Mechanoid)->焼け跡が残っている</CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.32>
+  <CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.33>flavortext_consequence(recipient_flesh==Mechanoid)->金属表面に焦げ目がついている</CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.33>
+  <CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.34>destroyed_suffix->[to]灰</CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.34>
+  <CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.35>destroyed_suffix->[to]消し炭</CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.35>
+  <CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.36>destroyed_suffix(recipient_flesh!=Mechanoid)->[to]原形を留めていない残骸</CF_PyromaniacIsFun_Maneuver_Ignite.rulePack.rulesStrings.36>
+
+
+</LanguageData>

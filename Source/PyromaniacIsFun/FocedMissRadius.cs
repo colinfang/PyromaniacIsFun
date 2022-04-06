@@ -26,7 +26,7 @@ namespace CF_PyromaniacIsFun
             )
             {
                 __result = 0;
-                PyromaniacUtility.ThrowText(caster, () => $"Reduced forced missed radius {caster} {equipment}", 4);
+                PyromaniacUtility.ThrowText(caster, () => "CF_PyromaniacIsFun_PyromaniacUtility_ReducedForcedMissedRadius".Translate(caster, equipment), 4);
 
             }
         }
