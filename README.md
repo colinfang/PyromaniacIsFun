@@ -47,6 +47,10 @@ It is still in beta. Feedback is welcome. Please leave a comment if you spot any
 
 - This mod is heavily inspired from Aelanna's excellent Better Pyromania. Please have a check if Better Pyromania suits your taste better.
 
+## Translation
+
+- 日本語 - Djur
+
 
 ---
 

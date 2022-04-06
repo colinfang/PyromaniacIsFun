@@ -3,12 +3,12 @@
 
   <CF_PyromaniacIsFun_FireArrows.WithFire>{0} with fire</CF_PyromaniacIsFun_FireArrows.WithFire>
 
-  <CF_PyromaniacIsFun_NeedPyrimania.SawWildFire>Saw wild fire x{0}: +{1}% ~{2}</CF_PyromaniacIsFun_NeedPyrimania.SawWildFire>
-  <CF_PyromaniacIsFun_NeedPyrimania.SawBurningPawn>Saw burning pawn x{0}: +{1}% ~{2}</CF_PyromaniacIsFun_NeedPyrimania.SawBurningPawn>
-  <CF_PyromaniacIsFun_NeedPyrimania.IAmOnFire>I am on fire: +{1}% ~{2}</CF_PyromaniacIsFun_NeedPyrimania.IAmOnFire>
-  <CF_PyromaniacIsFun_NeedPyrimania.BaseChangeRate>Base change rate: -{0}%</CF_PyromaniacIsFun_NeedPyrimania.BaseChangeRate>
-  <CF_PyromaniacIsFun_NeedPyrimania.FinalChangeRate>Final change rate: {0}% / day ({1}% / hour)</CF_PyromaniacIsFun_NeedPyrimania.FinalChangeRate>
-  <CF_PyromaniacIsFun_NeedPyrimania.WatchingFlame>Watching flame: +{0}% / day (+{1}% / hour)</CF_PyromaniacIsFun_NeedPyrimania.WatchingFlame>
+  <CF_PyromaniacIsFun_NeedPyromania.SawWildFire>Saw wild fire x{0}: +{1}% ~{2}</CF_PyromaniacIsFun_NeedPyromania.SawWildFire>
+  <CF_PyromaniacIsFun_NeedPyromania.SawBurningPawn>Saw burning pawn x{0}: +{1}% ~{2}</CF_PyromaniacIsFun_NeedPyromania.SawBurningPawn>
+  <CF_PyromaniacIsFun_NeedPyromania.IAmOnFire>I am on fire: +{1}% ~{2}</CF_PyromaniacIsFun_NeedPyromania.IAmOnFire>
+  <CF_PyromaniacIsFun_NeedPyromania.BaseChangeRate>Base change rate: -{0}%</CF_PyromaniacIsFun_NeedPyromania.BaseChangeRate>
+  <CF_PyromaniacIsFun_NeedPyromania.FinalChangeRate>Final change rate: {0}% / day ({1}% / hour)</CF_PyromaniacIsFun_NeedPyromania.FinalChangeRate>
+  <CF_PyromaniacIsFun_NeedPyromania.WatchingFlame>Watching flame: +{0}% / day (+{1}% / hour)</CF_PyromaniacIsFun_NeedPyromania.WatchingFlame>
 
   <CF_PyromaniacIsFun_SettingText_CostPerArrow.label>Pyromania need cost per fire arrow</CF_PyromaniacIsFun_SettingText_CostPerArrow.label>
   <CF_PyromaniacIsFun_SettingText_CostPerMelee.label>Pyromania need cost per melee ignite</CF_PyromaniacIsFun_SettingText_CostPerMelee.label>
@@ -27,7 +27,6 @@
 
   <CF_PyromaniacIsFun_PyromaniacUtility_ReducedForcedMissedRadius>Reduced forced missed radius {0} {1}</CF_PyromaniacIsFun_PyromaniacUtility_ReducedForcedMissedRadius>
   <CF_PyromaniacIsFun_PyromaniacUtility_IAmOnFire>I am on fire</CF_PyromaniacIsFun_PyromaniacUtility_IAmOnFire>
-  <CF_PyromaniacIsFun_PyromaniacUtility_ObservedFireOnPawn>Observed {0} on {1}</CF_PyromaniacIsFun_PyromaniacUtility_ObservedFireOnPawn>
   <CF_PyromaniacIsFun_PyromaniacUtility_ObservedFire>Observed {0}</CF_PyromaniacIsFun_PyromaniacUtility_ObservedFire>
   <CF_PyromaniacIsFun_PyromaniacUtility_PreventedFireStartingSpree>Prevented FireStartingSpree</CF_PyromaniacIsFun_PyromaniacUtility_PreventedFireStartingSpree>
 
