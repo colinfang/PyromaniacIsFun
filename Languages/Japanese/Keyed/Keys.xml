@@ -3,7 +3,7 @@
 
   <CF_PyromaniacIsFun_FireArrows.WithFire>燃え盛る{0}</CF_PyromaniacIsFun_FireArrows.WithFire>
 
-  <CF_PyromaniacIsFun_NeedPyromania.SawWildFire>野火を見た x{0}: +{1}% ~{2}</CF_PyromaniacIsFun_NeedPyromania.SawWildFire>
+  <CF_PyromaniacIsFun_NeedPyromania.SawWildFire>火事を見た x{0}: +{1}% ~{2}</CF_PyromaniacIsFun_NeedPyromania.SawWildFire>
   <CF_PyromaniacIsFun_NeedPyromania.SawBurningPawn>炎上する者を見た x{0}: +{1}% ~{2}</CF_PyromaniacIsFun_NeedPyromania.SawBurningPawn>
   <CF_PyromaniacIsFun_NeedPyromania.IAmOnFire>火に包まれている: +{1}% ~{2}</CF_PyromaniacIsFun_NeedPyromania.IAmOnFire>
   <CF_PyromaniacIsFun_NeedPyromania.BaseChangeRate>基本変動割合: -{0}%</CF_PyromaniacIsFun_NeedPyromania.BaseChangeRate>
@@ -15,7 +15,7 @@
 
   <CF_PyromaniacIsFun_SettingText_MeleeIgnite.label>近接攻撃での着火確率</CF_PyromaniacIsFun_SettingText_MeleeIgnite.label>
   <CF_PyromaniacIsFun_SettingText_MeleeIgnite.description>近接攻撃時に放火魔が攻撃対象に火を付ける頻度</CF_PyromaniacIsFun_SettingText_MeleeIgnite.description>
-  <CF_PyromaniacIsFun_SettingText_WildFire.label>野火一つにつき増加する火炎欲求ゲージの一日当たりの増加量</CF_PyromaniacIsFun_SettingText_WildFire.label>
+  <CF_PyromaniacIsFun_SettingText_WildFire.label>火事一つにつき増加する火炎欲求ゲージの一日当たりの増加量</CF_PyromaniacIsFun_SettingText_WildFire.label>
   <CF_PyromaniacIsFun_SettingText_BurningPawn.label>火のついたポーン一体につき増加する火炎欲求ゲージの一日当たりの増加量</CF_PyromaniacIsFun_SettingText_BurningPawn.label>
   <CF_PyromaniacIsFun_SettingText_SelfOnFire.label>自身が燃えた時の火炎欲求ゲージの一日当たりの増加量</CF_PyromaniacIsFun_SettingText_SelfOnFire.label>
   <CF_PyromaniacIsFun_SettingText_Meditation.label>瞑想(炎)で得られる火炎欲求ゲージへの掛け率</CF_PyromaniacIsFun_SettingText_Meditation.label>
